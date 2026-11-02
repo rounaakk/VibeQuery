@@ -1,9 +1,6 @@
 """Run VibeQuery with ``python -m vibequery``."""
 
-
-def main() -> None:
-    print("Hello from VibeQuery")
-
+from vibequery.cli import main
 
 if __name__ == "__main__":
     main()
