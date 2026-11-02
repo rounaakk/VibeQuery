@@ -1,0 +1,10 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "vibequery"
+version = "0.1.0"
+description = "A minimal Python package."
+readme = "README.md"
+requires-python = ">=3.11"
